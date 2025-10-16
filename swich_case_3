@@ -1,0 +1,16 @@
+//Traffic light color meaning
+
+var light = "green";
+
+switch (light){
+	case "yellow":
+	gs.info("stop");
+	break;
+	case "red":
+	gs.info("wait");
+	break;
+	case "green":
+	gs.info("Ready to Go");
+	break;
+
+}
