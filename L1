@@ -1,0 +1,11 @@
+//Check if a number is positive, negative, or zero
+
+var number = 5;
+
+if (number > 0)
+    gs.info("The number is positive.");
+
+else if (number < 0)
+    gs.info("The number is Negative.");
+else
+    gs.info("The number is zero.");
