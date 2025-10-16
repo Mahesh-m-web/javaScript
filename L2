@@ -1,0 +1,9 @@
+//Check if a person is eligible to vote
+
+var number = 21;
+
+if (number > 18 )
+    gs.info("eligible to vote.");
+
+else
+    gs.info(" not eligible to vote.");
