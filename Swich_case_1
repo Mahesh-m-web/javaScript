@@ -1,0 +1,27 @@
+//Day of the week
+
+var Day = 7;
+
+switch (Day){
+case 1:
+gs.info("Today is Monday");
+break;
+case 2:
+gs.info("Today is Tuseday");
+break;
+case 3:
+gs.info("Today is Wednesday");
+break;
+case 4:
+gs.info("Today is Thursday");
+break;
+case 5:
+gs.info("Today is Friday");
+break;
+case 6:
+gs.info("Today is Saturday");
+break;
+case 7:
+gs.info("Today is Sunday");
+break;
+}
