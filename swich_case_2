@@ -1,0 +1,28 @@
+//Simple calculator (add, subtract, multiply, divide)
+
+var oprater = "abc";
+var a = 5;
+var b = 10;
+
+switch (oprater) {
+    case "multi":
+        c = (a * b);
+        gs.info("output" + '' + c);
+        break;
+    case "sub":
+        c = (a - b);
+        gs.info("output" + '' + c);
+        break;
+    case "div":
+        c = (a / b);
+        gs.info("output" + '' + c);
+        break;
+    case "add":
+        c = (a + b);
+        gs.info("output" + '' + c);
+        break;
+    default:
+        gs.info("Invalid operation");
+        break;
+
+}
