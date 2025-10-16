@@ -1,0 +1,9 @@
+//Check if a number is even or odd
+
+var number = 8;
+
+if (number % 2 ===0)
+    gs.info("The number is even.");
+
+else
+    gs.info("The number is odd.");
