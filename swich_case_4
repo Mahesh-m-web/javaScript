@@ -1,0 +1,16 @@
+//Fruit price calculator
+
+var Fruit = "aalo";
+
+switch(Fruit){
+case "apple":
+price = 160;
+gs.info("price"+' '+ price);
+break;
+case "mango":
+price = 90;
+gs.info("price"+' '+ price);
+break;
+default :
+gs.info ("Fruit is not avialble");
+}
