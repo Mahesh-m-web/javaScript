@@ -1,0 +1,15 @@
+//Grade Checker
+
+var marks = 59;
+
+if (marks>=85)
+    gs.info("Grade: A");
+
+else if (marks>=75 & marks <=84)
+    gs.info(" Grade: B");
+
+else if (marks>=60 & marks <=74)
+   gs.info("Grade: C");
+
+   else 
+   gs.info("fail");
