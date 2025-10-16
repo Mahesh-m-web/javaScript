@@ -1,0 +1,12 @@
+var a = 1;
+var b = 8;
+var c = 5;
+
+if (a > b)
+    gs.info("a is less then b");
+
+else if (b > c)
+    gs.info('b is greater than  a');
+
+else
+    gs.info('c is greater than  b');
