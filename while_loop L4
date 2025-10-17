@@ -1,0 +1,12 @@
+//Print Even Numbers from 2 to 20
+
+var n =2;
+
+
+while (n<=20) {
+	gs.info(n);
+	n+=2;
+	
+}
+
+gs.info('sum ='+' '+n);
