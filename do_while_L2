@@ -1,0 +1,8 @@
+//Print Numbers from 1 to 10
+
+var i = 0;
+gs.info('start');
+do {
+  gs.info('i=' + i);
+  ++i;
+} while (i < 10);
