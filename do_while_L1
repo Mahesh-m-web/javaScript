@@ -1,0 +1,10 @@
+// 
+
+var i =0;
+
+do{
+
+	gs.info(i );
+	++i;
+}while(i<=5);
+gs.info(i);
