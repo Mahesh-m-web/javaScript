@@ -1,0 +1,13 @@
+//Sum of First N Numbers
+
+var n = 10;
+var sum =0;
+var i =1;
+
+
+while (i <= n) {
+    sum+=i;
+    i++;
+}
+
+gs.info('sum ='+' '+sum);
